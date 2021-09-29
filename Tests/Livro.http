@@ -1,0 +1,10 @@
+### Cadastrar livro
+POST https://localhost:5001/api/livro/create
+Content-Type: application/json
+
+{
+    "Nome" : "Bolacha",
+    "Preco" : 3.5
+}
+
+
